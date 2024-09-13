@@ -22,17 +22,17 @@ jobs:
         uses: ilammy/msvc-dev-cmd@v1
         
       - name: Create project
-        run: cd sp/src;devtools/bin/vpc.exe /sdk2013ce /2013 +game /mksln sdk2013ce.sln
+        run: cd sp/src;devtools/bin/vpc.exe /sdk2k24 /2013 +game /mksln sdk2k24.sln
 
       - name: Build project
-        run: cd sp/src;devenv sdk2013ce.sln /Build Release
+        run: cd sp/src;devenv sdk2k24.sln /Build Release
 
       - name: Pack
         shell: bash
-        run: tar cJfv Windows.tar.xz sp/game/mod_sdk2013ce/bin
+        run: tar cJfv Windows.tar.xz sp/game/mod_sdk2k24/bin
 
       - name: Upload product
         uses: actions/upload-artifact@v2
         with:
-          name: sp_sdk2013ce
+          name: sp_sdk2k24
           path: Windows.tar.xz
