@@ -4,8 +4,8 @@
 
 <div align="center">
 
- <a href="">[![Multiplayer Win](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/MP_windows.yml/badge.svg)](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/MP_windows.yml)</a>
-<a href="">[![Singleplayer Win](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/SP_windows.yml/badge.svg)](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/SP_windows.yml)</a>
+ <a href="">[![Multiplayer Win](https://github.com/FaberTheCatgirl/source-sdk-2k24/actions/workflows/MP_windows.yml/badge.svg)](https://github.com/FaberTheCatgirl/source-sdk-2k24/actions/workflows/MP_windows.yml)</a>
+<a href="">[![Singleplayer Win](https://github.com/FaberTheCatgirl/source-sdk-2k24//actions/workflows/SP_windows.yml/badge.svg)](https://github.com/FaberTheCatgirl/source-sdk-2k24/actions/workflows/SP_windows.yml)</a>
 
 </div>
 
@@ -18,11 +18,6 @@ There are currently two branches, the first one being `master` which will only c
 The second one is `Experimental` which is the branch we use to add new features and helpful tools for developers.</br>
 And a third branch `enhancements` soon to appear, which will include some neat features that we think you will enjoy, 
 some made by the community, some backported from other engine branches such as Alien Swarm, and everything in-between.
-
-You can find Source 2013 CE's roadmap by going to our [Trello board](https://trello.com/b/MOxQ2iai/source-sdk-2013-community-edition).
-
-And you can also give us suggestions for fixes and features that you'd like to see in our Discord channel (`#source-SDK-2013-ce`) found in the 
-Source Modding Community server, which you can join [here](https://discord.gg/BD6WpY5).
 
 # Requirements 
 To be able to use Source 2013 CE you will need to download **Visual Studio 2022** and install:
